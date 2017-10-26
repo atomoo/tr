@@ -7,6 +7,10 @@
     "rules": {
         "brace-style": ["error", "stroustrup"],
         "indent": ["error", 4],
+        "prefer-destructuring": ["error", {
+            "array": false,
+            "object": true
+        }],
         "semi": ["error", "never"]
     }
 }
